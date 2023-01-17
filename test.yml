@@ -17,7 +17,7 @@ spec:
   selector:
     app: test
   ports:
-    - name: http
+    - name: nginx
       protocol: TCP
       port: 80
       targetPort: 80
