@@ -6,8 +6,8 @@ metadata:
     app: test
 spec:
   containers:
-  - name: np-container
-    image: rapa.iptime.org:5000/nginx:latest 
+  - name: container
+    image: rapa.iptime.org:5000/nginx:5.0 
 ---
 apiVersion: v1
 kind: Service
