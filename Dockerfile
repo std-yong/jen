@@ -1,3 +1,3 @@
-FROM rapa.iptime.org:5000/nginx:5:0
+FROM rapa.iptime.org:5000/nginx:latest
 
 COPY index.html /usr/share/nginx/html
